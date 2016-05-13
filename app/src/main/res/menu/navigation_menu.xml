@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_one">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_frag_one"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Fragment One" />
+        <item
+            android:id="@+id/nav_frag_two"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Fragment Two" />
+    </group>
+
+    <group
+        android:id="@+id/menu_two">
+        <item
+            android:id="@+id/nav_frag_three"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Fragment Three" />
+        <item
+            android:id="@id/nav_settings"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Settings"/>
+        <item
+            android:id="@id/action_about"
+            android:icon="@mipmap/ic_launcher"
+            android:title="About"/>
+    </group>
+</menu>
